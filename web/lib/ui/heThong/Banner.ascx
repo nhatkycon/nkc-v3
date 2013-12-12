@@ -40,7 +40,7 @@
                 </ul> 
             </div>
         <%}else{%>
-            <a href="#loginDialog" data-toggle="modal">
+            <a data-href="#loginDialog" href="javascript:;" data-toggle="modal">
                 <i class="icon-lock icon-large icon-2x">
                 </i>
                 Đăng nhập
