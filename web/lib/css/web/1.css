@@ -117,12 +117,15 @@ ul,li,ol
   left: auto;
 }
 
-.nhatkycon-logo.navbar-brand {
+.nhatkycon-logo 
+{
+    display: inline-block;
     background-image: url(i/logo.png);
     width: 196px;
     background-repeat: no-repeat;
     background-position: center;
-    height: 50px;
+    height: 100px;
+    margin: 0px auto;
 }
 .img-baby-icon-navbar {
     width: 50px;
@@ -130,4 +133,8 @@ ul,li,ol
 }
 .navbar-form.navbar-form-200 {
     width: 200px;
+}
+.row {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }

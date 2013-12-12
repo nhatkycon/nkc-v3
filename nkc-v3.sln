@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1F622505-C735-43CB-BFAB-EFA8428028CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docsoft", "core\docsoft\docsoft.csproj", "{57E9EC8D-655E-4BCC-9AFF-A505FAA878CA}"
@@ -39,7 +39,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docsoft.plugin.authenticati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docsoft.plugin.plugManager", "plugin\system\docsoft.plugin.plugManager\docsoft.plugin.plugManager.csproj", "{C9F3A761-A5FE-440E-9905-5599558CB95B}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web", "web\", "{CC439979-ED0D-449A-AD83-619426F88FC9}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web", "web", "{CC439979-ED0D-449A-AD83-619426F88FC9}"
 	ProjectSection(WebsiteProperties) = preProject
 		SccProjectName = "SAK"
 		SccAuxPath = "SAK"
@@ -62,7 +62,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web", "web\", "{CC439979-ED
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "55418"
-		VWDDynamicPort = "true"
+		VWDDynamicPort = "false"
 		VWDVirtualPath = "/"
 	EndProjectSection
 EndProject
